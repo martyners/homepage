@@ -1,0 +1,4 @@
+.header__title {
+    color: hsl(50, 100%, 9%);
+    text-shadow: -1px 1px 2px rgb(151, 138, 120);
+}

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rajan - Golden Retriever</title>
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/navigation.css" rel="stylesheet" />
+    <link href="css/header.css" rel="stylesheet" />
+    <link href="css/section.css" rel="stylesheet" />
+    <link href="css/table.css" rel="stylesheet" />
+    <script defer src="js/script.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="body">
+    <header class="header">
+      <h1 class="header__title">Rajan</h1>
+    </header>
+    <nav class="navigation">
+      <ul class="navigation__list">
+        <li class="navigation__listItem">
+          <a class="navigation__link" href="#moje-zdjecie">Moje zdjęcie</a>
+        </li>
+        <li class="navigation__listItem">
+          <a class="navigation__link" href="#o-mnie">O mnie</a>
+        </li>
+        <li class="navigation__listItem">
+          <a class="navigation__link" href="#o-rasie">O rasie</a>
+        </li>
+        <li class="navigation__listItem">
+          <a class="navigation__link" href="#dobytek">Dobytek</a>
+        </li>
+        <li class="navigation__listItem">
+          <a class="navigation__link" href="#kontakt">Kontakt</a>
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <section class="section" id="moje-zdjecie">
+        <h2 class="section__subHeader">Moje zdjęcie</h2>
+        <img src="images/Rajan.jpg" alt="Rajan zdjęcie" width="300" />
+        <button class="section__button">Zmień kolor tła</button>
+      </section>
+      <section class="section" id="o-mnie">
+        <h2 class="section__subHeader">O mnie</h2>
+        <p>Robię sztuczki, jem parówki i pilnuje całego podwórka.</p>
+      </section>
+      <section class="section" id="o-rasie">
+        <h2 class="section__subHeader">O rasie</h2>
+        <p>
+          <strong>Golden retriever</strong> od lat zajmuje jedno z<b
+            >czołowych miejsc</b
+          >
+          w klasyfikacji ulubionych psów Polaków. Jego popularność nie ogranicza
+          się jednak tylko do Europy &ndash; to pies znany i ceniony na
+          <em> całym świecie</em>, a zwłaszcza w Stanach Zjednoczonych. Nadaje
+          się do wielu zadań, jest czuły i przyjazny dla wszystkich. To
+          doskonały towarzysz, zarówno w pracy jak i w domu <br />
+          Informacje ze strony <i> <a href="http://www.wamiz.pl">Wamiz</a></i>
+        </p>
+      </section>
+      <section class="section" id="dobytek">
+        <h2 class="section__subHeader">Dobytek</h2>
+        <div class="section__tableContainer">
+          <table class="table">
+            <caption class="table__caption">
+              Zestawienie moich ulubionych zabawek
+            </caption>
+            <thead>
+              <tr class="table__row">
+                <th class="table__cell table__cell--header" scope="col">Nazwa</th>
+                <th class="table__cell table__cell--header" scope="col">Liczba</th>
+                <th class="table__cell table__cell--header" scope="col">
+                  Ile zmęczonych
+                </th>
+                <th class="table__cell table__cell--header" scope="col">
+                  Czy potrzeba nowe
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="table__row">
+                <th class="table__cell table__cell--header" scope="row">
+                  Piłeczki tenisowe
+                </th>
+                <td class="table__cell">2</td>
+                <td class="table__cell">0</td>
+                <td class="table__cell">0</td>
+              </tr>
+              <tr class="table__row">
+                <th class="table__cell table__cell--header" scope="row">
+                  Piłeczki gumowe
+                </th>
+                <td class="table__cell">4</td>
+                <td class="table__cell">3</td>
+                <td class="table__cell">&infin;</td>
+              </tr>
+              <tr class="table__row">
+                <th class="table__cell table__cell--header" scope="row">Maskotki</th>
+                <td class="table__cell">3</td>
+                <td class="table__cell">2</td>
+                <td class="table__cell">0</td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr class="table__row">
+                <th class="table__cell table__cell--header" scope="row">Suma</th>
+                <td class="table__cell">9</td>
+                <td class="table__cell">5</td>
+                <td class="table__cell">&infin;</td>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+      </section>
+    </main>
+    <footer class="section" id="kontakt">
+      <h2 class="section__subHeader">Kontakt</h2>
+      <p>
+        W środę możesz znaleźć mnie na psiej plaży, głośno wołając
+        <i>"masz parówkę"</i>.
+      </p>
+      <p>Pewnie teraz <strong class="section__whatAmIDoing"></strong></p>
+    </footer>
+  </body>
+</html>

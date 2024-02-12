@@ -1,0 +1,21 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+.body {
+    max-width: 1000px;
+    margin: 0 auto;
+    line-height: 1.5;
+    font-family: 'Lato', sans-serif;
+    padding: 10px 30px;
+}
+
+.body--bisquitBackground {
+    background-color: hsl(33, 100%, 96%);
+}

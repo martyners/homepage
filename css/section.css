@@ -1,0 +1,30 @@
+.section {
+    padding-top: 10px;
+    text-align: justify;
+}
+
+.section__subHeader {
+    text-shadow: -1px 1px 2px rgb(151, 138, 120);
+}
+
+.section__button {
+    padding: 10px 14px;
+    margin-top: 10px;
+    background-color: hsl(33, 100%, 88%);
+    border: 2px solid hsl(23, 100%, 88%);
+    border-radius: 10px;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+}
+
+.section__button:hover {
+    background-color: hsl(23, 100%, 88%);
+}
+
+.section__button:active {
+    background-color: hsl(43, 100%, 88%);
+}
+
+.section__tableContainer {
+    overflow-x: auto;
+}

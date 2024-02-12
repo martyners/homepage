@@ -1,0 +1,28 @@
+.navigation__list {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.navigation__listItem {
+    background-color: hsl(33, 100%, 88%);
+    padding: 5px 10px;
+    margin: 10px;
+    width: 120px;
+    border: 2px solid hsl(23, 100%, 88%);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.navigation__listItem:hover {
+    background-color: hsl(13, 100%, 88%);
+}
+
+.navigation__listItem:active {
+    background-color: hsl(43, 100%, 88%);
+}
+
+.navigation__link {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
