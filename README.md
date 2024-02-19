@@ -2,7 +2,7 @@
 
 ## Demo
 
-Visit the live demo: [HomePage Rajan]https://martyners.github.io/homepage/)
+Visit the live demo: https://martyners.github.io/homepage/
 
 ## Overview
 
