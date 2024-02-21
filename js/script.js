@@ -3,9 +3,7 @@
     console.log("Łapa!");
   }
 
-  const buttonChangeBackground = document.querySelector(".section__button");
-
-  const toggleBackground = () => {
+  const toggleBackground = (buttonChangeBackground) => {
     const body = document.querySelector("body");
     
     body.classList.toggle("body--bisquitBackground");
@@ -40,7 +38,10 @@
             
   welcome();
             
-  buttonChangeBackground.addEventListener("click", toggleBackground);
+  const buttonChangeBackground = document.querySelector(".section__button");
+  buttonChangeBackground.addEventListener("click", () => {
+    toggleBackground(buttonChangeBackground);
+  });
             
   let timeOfDay = "popołudnie";
   setActivityBasedOnTimeOfDay(timeOfDay);
